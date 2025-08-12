@@ -7,3 +7,5 @@ def index(request):
     #templatehtml entre outros
     #context objetos (python, python com banco de dados)
     return render(request,'marketplace/index.html')
+def painel(request):
+    return render(request,'marketplace/painel.html')
