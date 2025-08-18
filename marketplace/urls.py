@@ -4,5 +4,6 @@ from . import views
 
 urlpatterns = [
     path('',views.index, name = 'index'),
-    path('painel/',views.painel, name = 'painel'), # adicionando a rota
+    path('membro/',views.autentica_membro, name='membro'),
+     # adicionando a rota
     ]
